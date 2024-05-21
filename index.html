@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <title>Nik's Feed</title>
+</head>
+<body>
+    <nav class="bg bg-light d-flex">
+        <div class="col-2 d-flex">
+            <i class="fa-brands fa-instagram mt-2 ms-2"></i>
+           <p class="pt-1 ms-2">Instagram</p>
+        </div>
+        <div class="col-10 text-end">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create New Post</button>
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accessibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>          
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Caption</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="d-flex">
+                    <span class="border"><i class="fa-solid fa-camera"></i></span>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-succ">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="d-flex justify-content-center">
+        <button><i class="fa-regular fa-grid"></i></button>
+        <button><i class="fa-solid fa-square"></i></button>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/440/300/300.jpg?hmac=K9zKMAEdnvvajpmT-bhi-nHmL0RoJ66vjn5gVaChe3s"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/384/300/300.jpg?hmac=xsReVPSFH3ElarBGvRf7pD82vRIEh25rMnuM6mO19PQ"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/88/300/300.jpg?hmac=hqOk1llBNb7n_z9FdbuqZHqpejGpz74XwzivoEmkQ_c"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/1000/300/300.jpg?hmac=hOLpfG7OPjGNZ-JDFwC1QZ2GK_0zZYRyvlJA5BF0SVg"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/460/300/300.jpg?hmac=vn-B--fFYpqbbWWaRPm__VueAItjkTxHgRRYxEdGhSY"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/1042/300/300.jpg?hmac=ZsXTC7SJEqoeBaG83Ec52Q65QRGZ0gf4sNZj7r8UkHc"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/67/300/300.jpg?hmac=jI2Q2RKTfO8vQQcz4zN4eHLhXHRmt4UJ0eFxEwg_6Gw"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/611/300/300.jpg?hmac=EJgvBzCx8e8CIwFeaaLBr3W56RSBPq8uOhwiEdeEMh0"></div>
+            <div class="col-3 mt-3"><img src="https://fastly.picsum.photos/id/17/300/300.jpg?hmac=KxvSSOugjB6gpoBNWDjhfj5DxC8fvBVrp-vDzzFAMPo"></div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3f4a32fb25.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
