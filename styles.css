@@ -1,0 +1,33 @@
+.post{
+    text-align: center;
+    background: white;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+
+}
+
+.post-header{
+    display: flex;
+    margin: 0;
+}
+
+.post-icons{
+    display: flex;
+}
+
+.post-body{
+    text-align: center;
+}
+.containertwo{
+    width: 600px;
+    margin: auto;
+}
+
+header {
+    background: black;
+    padding: 10px;
+}
+.post-img img {
+    width: 100%;
+    border-radius: 8px;
+}
